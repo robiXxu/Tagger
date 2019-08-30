@@ -1,0 +1,11 @@
+## Interface: 31687
+## Title: Tagger - Classic
+## Version: 0.1
+## Notes: Tag Mobs / Players / Npc's on focus with an Raid Icon
+## Author: robiXxu
+## SavedVariables: TaggerDB
+## DefaultState: enabled
+
+# Addon Files #
+tagger.lua
+tagger.xml
