@@ -1,9 +1,7 @@
 local TAGGER_FRAME = CreateFrame("FRAME", "Tagger")
 TAGGER_FRAME:RegisterEvent("UNIT_TARGET")
 local function eventHandler(self, event, ...)
-  if #{...} > 0 then
-    local name = UnitName("target")
-    print("Selected " .. name)
+  if #{...} > 0 and UnitName("target") ~= nil then
     SetRaidTarget("target", 8)
   end
 end
