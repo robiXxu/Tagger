@@ -8,4 +8,3 @@
 
 # Addon Files #
 tagger.lua
-tagger.xml
